@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Seeker",
+    "slug": "Seeker",
+    "version": "1.0.0",
+    "scheme": "seeker",
+    "plugins": [
+      "expo-web-browser",
+      "expo-splash-screen"
+    ],
+    "android": {
+      "package": "com.jellyaze.maginghotdog",
+      "edgeToEdgeEnabled": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5c3f199d-882a-4317-bbda-424b83ef3227"
+      }
+    },
+    "splash": {
+      "image": "./app/assets/phone-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
